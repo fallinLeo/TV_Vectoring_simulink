@@ -1,0 +1,35 @@
+[HEADER]
+FILE_TYPE                             = 'tir'
+$----------------------------------------------------------------units
+[UNITS]
+LENGTH                                = 'mm'
+FORCE                                 = 'newton'
+ANGLE                                 = 'radians'
+MASS                                  = 'kg'
+TIME                                  = 'second'
+$----------------------------------------------------------------model
+[MODEL]
+VENDER_TIRE_TYPE                      = 'RD-UA'
+$-----------------------------------------------------------dimensions
+[DIMENSION]
+UNLOADED_RADIUS                       = 320
+WIDTH                                 = 210
+RIM_RADIUS                            = 200
+$-------------------------------------------------------------parameter
+[PARAMETER]
+$ vertical stiffness (Force/Length)
+RADIAL_STIFFNESS                      = 190.0
+$ vertical damping ratio
+RADIAL_DAMPING_RATIO                  = 0.01
+% longitudinal slip stiffness (Force/ratio)
+LONGITUDINAL_STIFFNESS                = 200000
+% lateral slip stiffness (Force/angle)
+LATERAL_STIFFNESS                     = 500000
+% camber stiffness (Force/angle)
+CAMBER_STIFFNESS                      = 3000
+% rolling registance length (Length)
+ROLLING_RESISTANCE                    = 3
+% maximum friction coefficient
+FRICTION_MAX                          = 1.1
+% minimum friction coefficient
+FRICTION_MIN                          = 0.8
