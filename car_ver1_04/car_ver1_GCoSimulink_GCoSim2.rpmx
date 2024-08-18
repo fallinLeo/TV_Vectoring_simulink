@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<AnalysisResultFiles rpmxver="1000" rdsolverver="10.2.13271.0" os="WINDOWS" filename="car_ver1_04\car_ver1_GCoSimulink_GCoSim2">
+    <Command ID="1" type="Dynamic" StartTime="0" text="sim/dyn, end = 15, step = 100">
+        <!--File type="rplt" path=".\car_ver1_GCoSimulink_GCoSim2.rplt" datatype="New"-->
+        <File type="ran" path=".\car_ver1_GCoSimulink_GCoSim2.ran" datatype="New" />
+    </Command>
+</AnalysisResultFiles>

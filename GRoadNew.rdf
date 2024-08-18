@@ -1,0 +1,44 @@
+[HEADER]
+ENTITY = 'ROAD'
+FILE_TYPE = 'rdf'
+
+$--------------------------------------------------------------------------UNITS
+[UNITS]
+LENGTH = 'millimeter'
+FORCE = 'newton'
+ANGLE = 'radian'
+MASS = 'kilogram'
+TIME = 'second'
+
+$--------------------------------------------------------------------------MODEL
+[MODEL]
+METHOD = 'RD-3D'
+ROAD_TYPE = 'PATCH'
+
+$---------------------------------------------------------------------PARAMETERS
+[PARAMETERS]
+MU = 1.0
+X_SCALE = 1
+Y_SCALE = 1
+Z_SCALE = 1
+
+(ORIGIN)
+0 0 0
+(NORMAL_DIRECTION)
+0, 1, 0
+(DRIVING_DIRECTION)
+0, 0, 1
+
+$---------------------------------------------------------------------------DATA
+[NODES]
+NUMBER_OF_NODES    = 4
+{ node   x_value   y_value   z_value }
+0 -170 -10000 10000
+1 -170 -10000 -100000
+2 -170 160000 -100000
+3 -170 160000 10000
+[ELEMENTS]
+NUMBER_OF_ELEMENTS    = 2
+{ node_1   node_2  node_3 }
+0 1 2
+2 3 0

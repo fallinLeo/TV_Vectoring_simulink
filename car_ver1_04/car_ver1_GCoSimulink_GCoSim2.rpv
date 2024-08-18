@@ -1,0 +1,10 @@
+﻿!=========================RecurDyn Parametric Value==================================
+InputV_kmph = 15.
+cornering_stiffness_front_tire = 500009.
+cornering_stiffness_rear_tire = 500009.
+Izz = 2550000000.
+mass = 1500.
+Lf = 900.
+Lr = 1846.83
+L = 2746.83
+Kv = 1.034e-003

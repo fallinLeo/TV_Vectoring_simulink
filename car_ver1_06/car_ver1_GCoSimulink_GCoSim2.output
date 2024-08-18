@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+	<OBJECT keyword="RIGID_BODY" name="Professional" type="Body">
+		<ENTITIES>
+			<ENTITY name="Chassis" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GTire_FRBody" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GTire_FLBody" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GTire_RRBody" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GTire_RLBody" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Steering_RackBar@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="WheelHub@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="LowArm@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Knuckle@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TopMount@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="RackBar@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TieRod@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="WheelHub@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="LowArm@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Knuckle@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TopMount@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="RackBar@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TieRod@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="WheelHub@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="LowArm@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Knuckle@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TopMount@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="RackBar@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TieRod@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="WheelHub@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="LowArm@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Knuckle@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TopMount@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="RackBar@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="TieRod@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="4">
+			<PROPERTY keyword="Position" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Velocity" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Acceleration" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Energy" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="TRANSLATIONAL_SPRING_FORCE_GROUP" name="Professional" type="Force">
+		<ENTITIES>
+			<ENTITY name="Spring_TopMount__Knuckle@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Spring_TopMount__Knuckle@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Spring_TopMount__Knuckle@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Spring_TopMount__Knuckle@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="2">
+			<PROPERTY keyword="Applied Force" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Relative Distance" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="ROTATIONAL_AXIAL_FORCE_GROUP" name="Professional" type="Force">
+		<ENTITIES>
+			<ENTITY name="RotationalAxial1" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="RotationalAxial2" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Torque_FR" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Torque_FL" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="1">
+			<PROPERTY keyword="Applied Force" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="BUSHING_FORCE_GROUP" name="Professional" type="Force">
+		<ENTITIES>
+			<ENTITY name="Bush_MBody__LowArm1@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__LowArm2@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__TopMount@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__LowArm1@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__LowArm2@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__TopMount@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__LowArm1@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__LowArm2@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__TopMount@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__LowArm1@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__LowArm2@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Bush_MBody__TopMount@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="1">
+			<PROPERTY keyword="Applied Force" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="FIXED_JOINT" name="Professional" type="Joint">
+		<ENTITIES>
+			<ENTITY name="FixGTire_FR" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="FixGTire_FL" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="FixGTire_RR" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="FixGTire_RL" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Fix_RackBar__SubRackBar_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Fix_RackBar__SubRackBar_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Fix_MBody__RackBar@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Fix_MBody__RackBar@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="1">
+			<PROPERTY keyword="Reaction Force" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="TRANSLATIONAL_JOINT" name="Professional" type="Joint">
+		<ENTITIES>
+			<ENTITY name="TraJoint1" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Tra_Knuckle__TopMount@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Tra_Knuckle__TopMount@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Tra_Knuckle__TopMount@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Tra_Knuckle__TopMount@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="6">
+			<PROPERTY keyword="Relative Position" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Relative Velocity" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Relative Acceleration" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Reaction Force" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Driving Force" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Friction Force" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="SPHERICAL_JOINT" name="Professional" type="Joint">
+		<ENTITIES>
+			<ENTITY name="Sph_Knuckle__LowArm@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_Knuckle__TieRod@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_RackBar__TieRod@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_Knuckle__LowArm@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_Knuckle__TieRod@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_RackBar__TieRod@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_Knuckle__LowArm@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_Knuckle__TieRod@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_RackBar__TieRod@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_Knuckle__LowArm@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_Knuckle__TieRod@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Sph_RackBar__TieRod@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="5">
+			<PROPERTY keyword="Relative Position" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Relative Velocity" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Relative Acceleration" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Reaction Force" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Friction Force" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="REVOLUTE_JOINT" name="Professional" type="Joint">
+		<ENTITIES>
+			<ENTITY name="Rev_Knuckle__WheelHub@Suspension_FR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Rev_Knuckle__WheelHub@Suspension_FL@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Rev_Knuckle__WheelHub@Suspension_RR@Suspension" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Rev_Knuckle__WheelHub@Suspension_RL@Suspension" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="6">
+			<PROPERTY keyword="Relative Position" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Relative Velocity" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Relative Acceleration" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Reaction Force" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Driving Force" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Friction Force" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="EXPRESSION_NAME" name="Professional" type="Expression">
+		<ENTITIES>
+			<ENTITY name="ExSteeringRackBar_mm" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="ExTorque_Nmm" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Ex1" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Ex2" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Vx3" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="step_radian" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Setaf" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Ax" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Vy" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Ay" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="raww_rate" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="command_Torque_R" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="zeroo" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="rss" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Ex1@Suspension_FR@Suspension" type="BOOL">FALSE</ENTITY>
+			<ENTITY name="Ex1@Suspension_FL@Suspension" type="BOOL">FALSE</ENTITY>
+			<ENTITY name="Ex1@Suspension_RR@Suspension" type="BOOL">FALSE</ENTITY>
+			<ENTITY name="Ex1@Suspension_RL@Suspension" type="BOOL">FALSE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="1">
+			<PROPERTY keyword="Value" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="TIRE_FIALA" name="Tire" type="Tire">
+		<ENTITIES>
+			<ENTITY name="GTire_FRForce" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GTire_FLForce" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GTire_RRForce" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GTire_RLForce" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="2">
+			<PROPERTY keyword="Force" type="BOOL">TRUE</PROPERTY>
+			<PROPERTY keyword="Tire" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="GPIN" name="Control" type="GPlant Input">
+		<ENTITIES>
+			<ENTITY name="Control_torqueL" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="Contro_torqueR" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="command_velx" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="command_seta" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="GPlantInput1" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="1">
+			<PROPERTY keyword="Value" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+	<OBJECT keyword="GPOUT" name="Control" type="GPlant Output">
+		<ENTITIES>
+			<ENTITY name="Velocity_x" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="seta_f" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="yaww_rate" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="acc_x" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="acc_y" type="BOOL">TRUE</ENTITY>
+			<ENTITY name="velocity_y" type="BOOL">TRUE</ENTITY>
+		</ENTITIES>
+		<ARRAYPROPERTY arraysize="1">
+			<PROPERTY keyword="Value" type="BOOL">TRUE</PROPERTY>
+		</ARRAYPROPERTY>
+	</OBJECT>
+</DOCUMENT>

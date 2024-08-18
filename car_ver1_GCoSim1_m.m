@@ -9,10 +9,10 @@
 car_ver1_GCoSim1;
 
 % Open Simulink model
-% open_system('tv_controller_');
+% open_system('tv_controller_ver2');
 
 % Simulation
-sim( 'tv_controller_', [ 0 10]);
+sim( 'tv_controller_ver2', [ 0 25]);
 
 % Close Simulink model
-% close_system('tv_controller_');
+% close_system('tv_controller_ver2');
